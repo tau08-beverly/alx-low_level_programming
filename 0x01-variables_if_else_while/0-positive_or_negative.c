@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints id number is positive, zero or negative
- * Return: Always 0 (Success)
+ * main - Prints if  number is positive, Zero or negative
+ * Return: Always (Success)
  *
  */
 
@@ -25,7 +25,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-	printf("%d is zero\n", n);
+	printf("%d is Zero\n", n);
 	}
 	else
 	{
@@ -33,4 +33,5 @@ int main(void)
 	}
 	return (0);
 
-}	
+}
+

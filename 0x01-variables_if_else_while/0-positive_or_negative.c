@@ -6,7 +6,7 @@
 
 /**
  * main - Prints id number is positive, zero or negative
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  *
  */
 
@@ -25,7 +25,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-	printf("%d is Zero\n", n);
+	printf("%d is zero\n", n);
 	}
 	else
 	{

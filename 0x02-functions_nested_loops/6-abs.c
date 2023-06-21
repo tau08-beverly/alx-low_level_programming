@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _abs - Computes the absolute value of an integer.
- * @c: The number to be computed.
+ * _abs - Computes the absolute value of an integer
+ * @c: The number to be computed
  * Retuen: Absolute value of number or zero
  */
 
@@ -15,7 +15,7 @@ int _abs(int c)
 	abs_val = c * -1;
 	return (abs_val);
 	}
-	return (c);
+	return (0);
 
 }	
 

@@ -22,13 +22,13 @@ int palind2(char *a, int l)
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int palind4(char *a, int l)
+int palind3(char *a, int l)
 {
 	if (*a != *(a + l))
 		return (0);
 	else if (*a == 0)
 		return (1);
-	return (palind4(a + 1, l - 2));
+	return (palind3(a + 1, l - 2));
 }
 /**
  * is_palindrome - checks if a string is a palindrome
@@ -42,5 +42,5 @@ int is_palindrome(char *s)
 	int l;
 
 	l = palind2(s, 0);
-	return (palind4(s, l));
+	return (palind3(s, l));
 }
